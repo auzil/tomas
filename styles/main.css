@@ -211,6 +211,7 @@ body {
 }
 @media (max-width: 768px) {
   .intro__image img {
+    margin: 0 auto;
     max-width: 300px;
   }
 }
