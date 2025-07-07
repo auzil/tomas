@@ -126,6 +126,11 @@ body {
   text-align: center;
   padding-top: 110px;
 }
+@media (max-width: 768px) {
+  .hero {
+    height: 90vh;
+  }
+}
 .hero__background {
   position: absolute;
   top: 0;
