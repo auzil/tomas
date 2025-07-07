@@ -1,0 +1,12 @@
+{
+    "name": "scss-project",
+    "version": "1.0.0",
+    "description": "Пример проекта с поддержкой SCSS",
+    "scripts": {
+      "build": "sass styles/main.scss:styles/main.css",
+      "watch": "sass --watch styles/main.scss:styles/main.css"
+    },
+    "devDependencies": {
+      "sass": "^1.77.0"
+    }
+  }
