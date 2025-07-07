@@ -209,6 +209,11 @@ body {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .intro__image img {
+    max-width: 300px;
+  }
+}
 
 .services {
   padding: 40px 0;
