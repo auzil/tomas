@@ -204,6 +204,11 @@ body {
   flex: 1;
   display: flex;
 }
+@media (max-width: 768px) {
+  .intro__image {
+    margin: 0 auto;
+  }
+}
 .intro__image img {
   width: 450px;
   height: auto;
@@ -211,7 +216,6 @@ body {
 }
 @media (max-width: 768px) {
   .intro__image img {
-    margin: 0 auto;
     max-width: 300px;
   }
 }
